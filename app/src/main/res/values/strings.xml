@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Test_2</string>
+    <string name="title_home">Task 1</string>
+    <string name="title_dashboard">Task 2</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="coal">Кількість вугілля, т</string>
+    <string name="fuel_oil">Кількість мазуту, т</string>
+    <string name="natural_gas">Кількість природнього газу, т</string>
+</resources>

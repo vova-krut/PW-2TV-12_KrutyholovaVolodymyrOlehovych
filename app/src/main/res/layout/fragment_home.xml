@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <EditText
+        android:id="@+id/coal"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/coal"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/fuel_oil"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/fuel_oil"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coal" />
+
+    <EditText
+        android:id="@+id/natural_gas"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/natural_gas"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fuel_oil" />
+
+    <Button
+        android:id="@+id/buttonCalculateTask1"
+        android:layout_width="128dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="496dp"
+        android:text="Calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/natural_gas" />
+
+    <TextView
+        android:id="@+id/outputTask1"
+        android:layout_width="377dp"
+        android:layout_height="418dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCalculateTask1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
